@@ -1,0 +1,20 @@
+{
+  "name": "supersax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R dot spec/unit spec/integration",
+    "guard": "mocha -w -R dot spec/unit spec/integration"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-expat": "^2.3.11",
+    "use-strict": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "sinon": "^1.17.2"
+  }
+}
